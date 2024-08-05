@@ -13,16 +13,16 @@ export default function Home() {
         py-12
         sm:px-6
         lg:px-8
-        bg-gray-100
+       bg-slate-900
       "
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <Image
+         <Image
           alt="Logo"
-          height="48"
-          width="48"
+          height="100"
+          width="100"
           className="mx-auto w-auto"
-          src="/images/logo.png"
+          src="/images/fto.png"
         />
         <h2
           className="
@@ -31,10 +31,10 @@ export default function Home() {
             text-3xl
             font-bold
             tracking-tight
-            text-gray-900
+            text-white
           "
         >
-          Sign in to your account
+          Sign in / Register 
         </h2>
       </div>
       <AuthForm />
